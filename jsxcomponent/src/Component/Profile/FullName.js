@@ -1,1 +1,1 @@
-export const FullName = () => <h3 className="card-title"> Hlali Refka </h3>;
+export const FullName = () => <h4> Hlali Refka </h4>;

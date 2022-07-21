@@ -6,10 +6,17 @@ import { Address } from "./Component/Profile/Address";
 
 function App() {
   return (
-    <div>
-      <Photo />
-      <FullName />
-      <Address />
+    <div className="container">
+      <div className="card">
+        <div className="card__header">
+          <Photo />
+        </div>
+        <div className="card__body">
+          <span className="tag tag-blue">Technology</span>
+          <FullName />
+          <Address />
+        </div>
+      </div>
     </div>
   );
 }
